@@ -104,6 +104,7 @@ class ImageEditor(QWidget):
         if event.button() in [Qt.LeftButton, Qt.RightButton]:
             self.drawing = False
             self.erasing = False
+            #to modify
 
 
 if __name__ == "__main__":
